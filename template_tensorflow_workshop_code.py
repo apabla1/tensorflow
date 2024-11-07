@@ -144,6 +144,7 @@ Each epoch is one complete use of the entire dataset to train. We will train on 
 history = model.fit(
     # which dataset should we use to train?
     ### YOUR CODE HERE ###
+    dataset_train,
     epochs=8,
     validation_data=dataset_test,
 )
